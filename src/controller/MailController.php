@@ -2,6 +2,7 @@
 
 namespace RecipePhpMicroservice\controller;
 
+use RecipePhpMicroservice\internal\repo\MailRepo;
 use Slim\Http\Response;
 use Slim\Http\ServerRequest;
 use Slim\Views\Twig;

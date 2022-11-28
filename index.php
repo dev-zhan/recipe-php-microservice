@@ -9,14 +9,15 @@ use Slim\Factory\AppFactory;
 use Slim\Views\Twig;
 use Slim\Views\TwigMiddleware;
 
+/*
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->load();
+*/
 
-$twig = Twig::create(__DIR__ . '/templates', ['cache' => false]);
+$twig = Twig::create(__DIR__ . './templates', ['cache' => false]);
 $app = AppFactory::create();
 $app->addErrorMiddleware(true, true, true);
 $app->add(TwigMiddleware::create($app, $twig));
-
 
 $app->get('/', function (Request $request, Response $response, $args) {
     $response->getBody()->write("Hello world!");

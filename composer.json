@@ -1,11 +1,18 @@
 {
 
+    "name":"zhan/recipe-php-microservice",
+    "autoload": {
+        "psr-4": {
+            "RecipePhpMicroservice\\": "src/"
+        }
+    },
     "require": {
         "slim/slim": "^4.11",
         "slim/psr7": "^1.6",
         "slim/http": "^1.3",
         "slim/twig-view": "^3.3",
         "php-amqplib/php-amqplib": "^2.8",
-        "ext-pdo": "*"
+        "ext-pdo": "*",
+        "symfony/dotenv": "^6.1"
     }
 }

@@ -26,10 +26,15 @@ class ComposerStaticInite4771f8ef1e16b07e4c62407de1644ba
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Component\\Dotenv\\' => 25,
             'Slim\\Views\\' => 11,
             'Slim\\Psr7\\' => 10,
             'Slim\\Http\\' => 10,
             'Slim\\' => 5,
+        ),
+        'R' => 
+        array (
+            'RecipePhpMicroservice\\' => 22,
         ),
         'P' => 
         array (
@@ -67,6 +72,10 @@ class ComposerStaticInite4771f8ef1e16b07e4c62407de1644ba
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Symfony\\Component\\Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dotenv',
+        ),
         'Slim\\Views\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/twig-view/src',
@@ -82,6 +91,10 @@ class ComposerStaticInite4771f8ef1e16b07e4c62407de1644ba
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
+        ),
+        'RecipePhpMicroservice\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Psr\\Log\\' => 
         array (
