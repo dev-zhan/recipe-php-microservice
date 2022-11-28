@@ -1,5 +1,7 @@
 <?php
 
+namespace RecipePhpMicroservice\internal\repo;
+
 use PDO;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
